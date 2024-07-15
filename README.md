@@ -9,12 +9,16 @@ This repository contains Postman collections and environment files that showcase
 In this repository, you will find:
 
 Postman Collections: JSON files that include sets of API requests and tests.
+
 Environment Files: JSON files that contain environment-specific variables.
+
 PDF Documentation: A PDF file that illustrates and explains the actual work done in Postman.
 
 # Repository Structure
 The repository is organized as follows:
 
 collections/: Contains Postman collection files (.json).
+
 environments/: Contains Postman environment files (.json).
+
 docs/: Contains the PDF document (.pdf) demonstrating the work done in Postman.
