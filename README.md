@@ -20,9 +20,9 @@ collections/: Contains the Postman collection file (Booking API.postman_collecti
 docs/: Contains a PDF document demonstrating the Postman collection and its use cases.
 
 # Collection Details
-Negative Scenarios
+# Negative Scenarios
 
-# Get Booking Details Invalid Id
+Get Booking Details Invalid Id
 
 Method: GET
 
@@ -30,7 +30,7 @@ URL: https://restful-booker.herokuapp.com/booking
 
 Description: Attempts to get booking details with an invalid ID.
 
-# Create Booking Invalid Chars
+Create Booking Invalid Chars
 
 Method: POST
 
@@ -40,7 +40,7 @@ Description: Attempts to create a booking with potentially invalid characters in
 
 # Positive Endpoints
 
-# Get Booking Ids
+Get Booking Ids
 
 Method: GET
 
@@ -48,7 +48,7 @@ URL: https://restful-booker.herokuapp.com/booking
 
 Description: Retrieves a list of booking IDs.
 
-# Get Booking Details
+ Get Booking Details
 
 Method: GET
 
@@ -56,7 +56,7 @@ URL: https://restful-booker.herokuapp.com/booking/3521
 
 Description: Retrieves the details of a specific booking by ID.
 
-# Token Generator
+Token Generator
 
 Method: POST
 
@@ -64,7 +64,7 @@ URL: https://restful-booker.herokuapp.com/auth
 
 Description: Generates a token for authentication purposes.
 
-# Update Booking
+Update Booking
 
 Method: PUT
 
@@ -77,7 +77,7 @@ Cookie: token=ee0e948353fd707
 
 Description: Updates the details of an existing booking.
 
-# Delete Booking
+Delete Booking
 
 Method: DELETE
 
@@ -90,7 +90,7 @@ Cookie: token=ee0e948353fd707
 
 Description: Deletes a specific booking by ID.
 
-# Create Booking
+Create Booking
 
 Method: POST
 
