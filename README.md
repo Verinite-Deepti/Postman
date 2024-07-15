@@ -1,24 +1,99 @@
-# Postman
+# Booking API Postman Collection
+Welcome to the Booking API Postman Collection repository!
 
-Hi there! 👋
-
-Welcome to the Postman API repository.
-This repository contains Postman collections and environment files that showcase the API work. Additionally, there is a PDF document that provides a detailed demonstration of the work in Postman.
+In this repository, you will find a Postman collection designed to interact with the Booking API. This collection covers a range of scenarios including both positive and negative test cases. The provided Postman collection and environment files enable comprehensive testing of the Booking API.
 
 # Overview
-In this repository, you will find:
+The Postman collection in this repository includes:
 
-Postman Collections: JSON files that include sets of API requests and tests.
+Negative Scenarios: Tests designed to validate the API's response to incorrect or invalid inputs.
 
-Environment Files: JSON files that contain environment-specific variables.
+Positive Endpoints: Valid use cases for the Booking API to ensure proper functionality under expected conditions.
 
-PDF Documentation: A PDF file that illustrates and explains the actual work done in Postman.
+Additionally, there is a PDF document that provides a detailed demonstration of the work done with the Postman collection.
 
 # Repository Structure
 The repository is organized as follows:
 
-collections/: Contains Postman collection files (.json).
+collections/: Contains the Postman collection file (Booking API.postman_collection.json).
 
-environments/: Contains Postman environment files (.json).
+docs/: Contains a PDF document demonstrating the Postman collection and its use cases.
 
-docs/: Contains the PDF document (.pdf) demonstrating the work done in Postman.
+# Collection Details
+Negative Scenarios
+
+# Get Booking Details Invalid Id
+
+Method: GET
+
+URL: https://restful-booker.herokuapp.com/booking
+
+Description: Attempts to get booking details with an invalid ID.
+
+# Create Booking Invalid Chars
+
+Method: POST
+
+URL: https://restful-booker.herokuapp.com/booking
+
+Description: Attempts to create a booking with potentially invalid characters in the request body.
+
+# Positive Endpoints
+
+# Get Booking Ids
+
+Method: GET
+
+URL: https://restful-booker.herokuapp.com/booking
+
+Description: Retrieves a list of booking IDs.
+
+# Get Booking Details
+
+Method: GET
+
+URL: https://restful-booker.herokuapp.com/booking/3521
+
+Description: Retrieves the details of a specific booking by ID.
+
+# Token Generator
+
+Method: POST
+
+URL: https://restful-booker.herokuapp.com/auth
+
+Description: Generates a token for authentication purposes.
+
+# Update Booking
+
+Method: PUT
+
+URL: https://restful-booker.herokuapp.com/booking/313
+
+Header:
+Content-Type: application/json
+
+Cookie: token=ee0e948353fd707
+
+Description: Updates the details of an existing booking.
+
+# Delete Booking
+
+Method: DELETE
+
+URL: https://restful-booker.herokuapp.com/booking/313
+
+Header:
+Content-Type: application/json
+
+Cookie: token=ee0e948353fd707
+
+Description: Deletes a specific booking by ID.
+
+# Create Booking
+
+Method: POST
+
+URL: https://restful-booker.herokuapp.com/booking
+
+Description: Creates a new booking with dynamic values for firstname and lastname.
