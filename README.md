@@ -1,7 +1,7 @@
 # Booking API Postman Collection
 Welcome to the Booking API Postman Collection repository!
 
-In this repository, you will find a Postman collection designed to interact with the Booking API. This collection covers a range of scenarios including both positive and negative test cases. The provided Postman collection and environment files enable comprehensive testing of the Booking API.
+In this repository, you will find a Postman collection designed to interact with the Booking API. This collection covers a range of scenarios including both positive and negative test cases.
 
 # Overview
 The Postman collection in this repository includes:
