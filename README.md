@@ -90,7 +90,7 @@ Cookie: token=ee0e948353fd707
 
 Description: Deletes a specific booking by ID.
 
-5.Create Booking
+6.Create Booking
 
 Method: POST
 
