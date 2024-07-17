@@ -1,7 +1,5 @@
 # Postman
 
-Hi there! 👋
-
 Welcome to the Postman API repository.
 This repository contains Postman collections and environment files that showcase the API work. Additionally, there is a PDF document that provides a detailed demonstration of the work in Postman.
 
